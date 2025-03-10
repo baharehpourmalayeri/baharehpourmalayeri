@@ -1,0 +1,29 @@
+name: Generate README
+
+on:
+  push:
+    branches:
+      - master  # Trigger action when pushing to the master branch
+  schedule:
+    - cron: '0 */6 * * *'  # Trigger action every 6 hours
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Use the latest version of Ubuntu for the job
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # This checks out your code so we can modify it
+
+      - name: Generate README.md
+        run: |
+          echo "# My Automated README" > README.md
+          echo "Generated at $(date)" >> README.md
+
+      - name: Commit and push README.md
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: 'GitHub Actions'
+          author_email: 'actions@github.com'
+          message: 'Automated README update'
+
