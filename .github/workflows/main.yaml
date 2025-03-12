@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - master  # Trigger action when pushing to the master branch
-  schedule:
-    - cron: '0 */6 * * *'  # Trigger action every 6 hours
-
 jobs:
   build:
     runs-on: ubuntu-latest  # Use the latest version of Ubuntu for the job
