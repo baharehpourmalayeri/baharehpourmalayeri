@@ -3,7 +3,7 @@
 
  ## Hi there, Welcome to my page! 🎉
  
-I’m a newbie Frontend Developer based in the beautiful city of Gothenburg, Sweden. 🇸🇪 
+I’m a creative Frontend Developer based in the beautiful city of Gothenburg, Sweden. 🇸🇪 
 
 My focus has been on frontend development, but I'm currently expanding my knowledge to dive deeper into backend technologies as well. 
 
