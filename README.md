@@ -5,8 +5,6 @@ I’m a creative Frontend Developer building my path toward Fullstack developmen
 
 I follow what’s happening in the industry and keep learning through freelance projects, where I help turn ideas into working, user-friendly web applications.
 
-My current focus on the frontend side is deepening my expertise with Angular, while I plan to expand my stack with .NET as part of my fullstack journey.
-
 I have a strong interest in UI/UX design and often take ownership of design work, combining creativity with practical implementation.
 
 
